@@ -15,6 +15,7 @@ const config = {
         main: { bc: "#2e2e2e" },
         fill: { 1: "rgba(255, 255, 255, 0.10)" },
         bankGradient: "#0179FE",
+        bankGradient2: "#B3F4F5",
         indigo: { 500: "#6172F3", 700: "#3538CD" },
         success: {
           25: "#F6FEF9",
@@ -91,7 +92,7 @@ const config = {
     require("tailwind-scrollbar")({ nocompatible: true }),
   ],
   corePlugins: {
-    preflight: false, // Sikrer at vi ikke overskriver din globale CSS helt
+    // preflight: false,
   },
 } satisfies Config;
 

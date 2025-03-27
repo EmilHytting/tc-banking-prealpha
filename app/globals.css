@@ -382,6 +382,6 @@
   }
 
   .header-text-c {
-    @apply blue-500;
+    @apply text-white;
   }
 }

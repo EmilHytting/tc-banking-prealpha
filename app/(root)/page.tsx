@@ -1,4 +1,5 @@
 import HeaderBox from "@/components/HeaderBox";
+import TotalBalanceBox from "@/components/TotalBalanceBox";
 import React from "react";
 
 const Dashboard = () => {
@@ -10,10 +11,12 @@ const Dashboard = () => {
         <header className="home-header">
           <HeaderBox
             type="greeting"
-            title="Welcome"
+            title="Velommen"
             user={loggedIn?.firstName || "Guest"}
-            subtext="Acces and manage your account and transactions efficiently"
+            subtext="Få adgang til og administrer din konto og dine transaktioner effektivt."
           />
+
+          <TotalBalanceBox accounts={[]} totalBanks={1} />
         </header>
       </div>
     </section>
